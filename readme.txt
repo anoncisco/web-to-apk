@@ -16,7 +16,7 @@ How To;
 
 <script type="text/javascript" src="http://www.domain.com/path/redirect.js"></script>
 <script type="text/javascript">
-    appsgeyserRedirect.init({
+    icoreRedirect.init({
         url: "http://www.domain.com/path/file_dot_APK",
         alertFrequency: "once"
     }).redirectPage();
