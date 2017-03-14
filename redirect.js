@@ -4,7 +4,7 @@
  * Copyright 2016, iCORE Fanatixx
  * Coder: Aming W. Widonno
  * Re-Coded and updating of Library v2.2
- * Coder URI: http://aming.id/
+ * Code URI: http://aming.id/
  * Jogja, 03 March 2017
  */
 var icoreRedirect = {
@@ -52,7 +52,7 @@ var icoreRedirect = {
             days = -1;
         }
         if(this.alertFrequency == "once"){
-            days = 720;
+            days = 30;
         }
         if(this.alertFrequency == "onceaweek"){
             days = 7;
