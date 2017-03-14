@@ -8,11 +8,16 @@
  * Jogja, March 03, 2017
  */
 
+Script ini digunakan jika kamu pengin memaksimalkan ketersediaan aplikasi Android kamu;
+Misal, website kamu udah memiliki aplikasi berbasis Android, sedangkan kunjungan ke website kamu kebanyakan melalui smartphone Android, mau gag mau kamu juga musti ngikutin trend dong biar gag ketinggalan, yo nggak?!
+
+Nah, sialnya, ketika kamu udah susah² build aplikasi Androidnya atau bahkan membeli jasa Android Developer tapi aplikasi tersebut dikit banget yang donwload, maka kamu perlu untuk memaksimalkannya, caranya kurang lebih ya memaksa pengunjung web/blogmu untuk mendownload aplikasi dan menginstalnya;
+
+Script ini juga bisa digunakan untuk memaksimalkan Cost Per Install jika kamu monetizing website kamu dengan CPI misal seperti UC Union, EcoMobile dll.
+
 How To;
 1. Upload file redirect.js di host, lebih baik satu host dengan website.
-
 2. Upload file .APK-nya di host (path folder sesuaikan) bisa juga URL aplikasi di Google Play.
-
 3. Paste-kan script dibawah ini bisa ditaruh di header sebelum </head> atau footer sebelum tutup tag </body>, 
 
 <script type="text/javascript" src="http://www.domain.com/path/redirect.js"></script>
@@ -30,4 +35,5 @@ Jika ingin alert seminggu sekali maka dirubah menjadi alertFrequency: "onceaweek
 
 \m/
 
+Happy thinkering!
 AMING.id™
