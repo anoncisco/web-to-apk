@@ -10,10 +10,11 @@
  */
 
 How To;
-1. Upload file redirect.js di host, lebih baik satu host dengan website.
-2. Upload file .APK-nya di host (path folder sesuaikan).
-3. Upload file redirect.js (path folder sesuaikan).
-3. Paste-kan script dibawah ini bisa ditaruh di header sebelum </head> atau footer sebelum tutup tag </body>, 
+1. Upload file redirect.js di host, lebih baik satu host dengan website;
+2. Upload file .APK-nya di host (path folder sesuaikan);
+3. Upload file redirect.js (path folder sesuaikan);
+4. Paste-kan script dibawah ini bisa ditaruh di header sebelum </head> atau footer sebelum tutup tag </body>, 
+
 
 <script type="text/javascript" src="http://www.domain.com/path/redirect.js"></script>
 <script type="text/javascript">
