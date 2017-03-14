@@ -7,7 +7,7 @@
  * Coder URI: http://aming.id/
  * Jogja, 03 March 2017
  */
-var appsgeyserRedirect = {
+var icoreRedirect = {
     url : '',
     alertFrequency: 'always',
     init: function(options){
@@ -16,7 +16,7 @@ var appsgeyserRedirect = {
         return this;
     },
     redirectPage: function(){
-        if(this.isOpenedOnMobileDevice() && this.isSiteHasAppsgeyserApp() && this.isAbleToRedirect()){
+        if(this.isOpenedOnMobileDevice() && this.isSiteHasIcoreApp() && this.isAbleToRedirect()){
             this.promtRedirectBox();
         }
         this.updateCookie();
@@ -29,14 +29,14 @@ var appsgeyserRedirect = {
         }
         return false;
     },
-    isSiteHasAppsgeyserApp: function(){
+    isSiteHasIcoreApp: function(){
         if(this.url != ''){
             return true;
         }
         return false;
     },
     isAbleToRedirect: function(){
-        if(!this.getCookie('appsgeyserShowAlert')){
+        if(!this.getCookie('icoreShowAlert')){
             return true;
         }
         return false;
@@ -57,7 +57,7 @@ var appsgeyserRedirect = {
         if(this.alertFrequency == "onceaweek"){
             days = 7;
         }
-        this.setCookie("appsgeyserShowAlert", true, days);
+        this.setCookie("icoreShowAlert", true, days);
     },
     setCookie: function (c_name,value,exdays)
     {
