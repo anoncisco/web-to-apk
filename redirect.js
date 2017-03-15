@@ -2,10 +2,10 @@
  * iCORE Library v2.3  - Javascript magnifier
  * http://www.VariousNetwork.com
  * Copyright 2016, iCORE Fanatixx
- * Coder: Aming W. Widonno
- * Re-Coded and updating of Library v2.2
- * Code URI: http://aming.id/
- * Jogja, 03 March 2017
+ * Code: Aming W. Widonno
+ * Re-Coded and updating Library v2.2.2
+ * Coder URI: http://aming.id/
+ * Jogja, March 03, 2017
  */
 var icoreRedirect = {
     url : '',
